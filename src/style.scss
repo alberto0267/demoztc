@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --p-font-family: 'Outfit', sans-serif !important;
+}
+
+body, .p-component {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.btn {
+  margin-right: 2px !important;
+  padding: 5px !important;
+  border-radius: 10px !important;
+}
+
+.btnVerde {
+  background-color: #28a745 !important;
+  color: white !important;
+  border-color: transparent !important;
+}
+
+.btnRojo {
+  color: white !important;
+  background-color: #dc3545 !important;
+  border-color: transparent !important;
+}
+
+.btnAmarillo {
+  color: white !important;
+  background-color: #ffc107 !important;
+  border-color: transparent !important;
+}
+
+.btnAzul {
+  color: white !important;
+  background-color: #17a2b8 !important;
+  border-color: transparent !important;
+}
+
+.btnAzul2 {
+  color: white !important;
+  background-color: #0f62d9 !important;
+  border-color: transparent !important;
+}
